@@ -27,37 +27,46 @@ class ViewController: UIViewController {
 		let numbers = [a, b, c]
 		let highest = numbers.maxElement()
 
-		if a == b && b == c {
-			print("Equilateral triangle - all 3 sides of equal length")
-		} else if a == highest {
-			if (b + c) > a {
-				if a == b || a == c {
-					print("Isosceles triangle - 2 sides of equal length")
+		let invalid = "Invalid numbers - no triangle can be created!"
+		let equilateral = "Equilateral triangle - all 3 sides of equal length"
+		let isosceles = "Isosceles triangle - 2 sides of equal length"
+		let scalene = "Scalene triangle - no sides of equal length"
+
+		if a < 0 || b < 0 || c < 0 {
+			print(invalid)
+		} else {
+			if a == b && b == c {
+				print(equilateral)
+			} else if a == highest {
+				if (b + c) > a {
+					if a == b || a == c {
+						print(isosceles)
+					} else {
+						print(scalene)
+					}
 				} else {
-					print("Scalene triangle - no sides of equal length")
+					print(invalid)
 				}
-			} else {
-				print("Invalid numbers - no triangle can be created!")
-			}
-		} else if b == highest {
-			if (a + c) > b {
-				if b == a || b == c {
-					print("Isosceles triangle - 2 sides of equal length")
+			} else if b == highest {
+				if (a + c) > b {
+					if b == a || b == c {
+						print(isosceles)
+					} else {
+						print(scalene)
+					}
 				} else {
-					print("Scalene triangle - no sides of equal length")
+					print(invalid)
 				}
-			} else {
-				print("Invalid numbers - no triangle can be created!")
-			}
-		} else if c == highest {
-			if (a + b) > c {
-				if c == a || c == b {
-					print("Isosceles triangle - 2 sides of equal length")
+			} else if c == highest {
+				if (a + b) > c {
+					if c == a || c == b {
+						print(isosceles)
+					} else {
+						print(scalene)
+					}
 				} else {
-					print("Scalene triangle - no sides of equal length")
+					print(invalid)
 				}
-			} else {
-				print("Invalid numbers - no triangle can be created!")
 			}
 		}
 
