@@ -1,0 +1,6 @@
+framework module Pods_testDemo1_triangles {
+  umbrella header "Pods-testDemo1_triangles-umbrella.h"
+
+  export *
+  module * { export * }
+}

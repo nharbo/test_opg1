@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		487F453314712B69B1D99728 /* Pods_testDemo1_triangles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155A47F0A9D41D4274AC2222 /* Pods_testDemo1_triangles.framework */; };
 		A851DF6F1E41F2F100475D7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A851DF6E1E41F2F100475D7D /* AppDelegate.swift */; };
 		A851DF711E41F2F100475D7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A851DF701E41F2F100475D7D /* ViewController.swift */; };
 		A851DF741E41F2F100475D7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A851DF721E41F2F100475D7D /* Main.storyboard */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		152981DFA43B7E52D359896D /* Pods-testDemo1_triangles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testDemo1_triangles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testDemo1_triangles/Pods-testDemo1_triangles.debug.xcconfig"; sourceTree = "<group>"; };
+		155A47F0A9D41D4274AC2222 /* Pods_testDemo1_triangles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testDemo1_triangles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81020AD29E5919829C78C01A /* Pods-testDemo1_triangles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testDemo1_triangles.release.xcconfig"; path = "Pods/Target Support Files/Pods-testDemo1_triangles/Pods-testDemo1_triangles.release.xcconfig"; sourceTree = "<group>"; };
 		A851DF6B1E41F2F100475D7D /* testDemo1_triangles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDemo1_triangles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A851DF6E1E41F2F100475D7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A851DF701E41F2F100475D7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		A851DF8D1E41F2F100475D7D /* testDemo1_trianglesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDemo1_trianglesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A851DF911E41F2F100475D7D /* testDemo1_trianglesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testDemo1_trianglesUITests.swift; sourceTree = "<group>"; };
 		A851DF931E41F2F100475D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC08F4D2010CC713BC55F77A /* Pods_testDemo1_trianglesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testDemo1_trianglesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD0B25D6B7F56244DB1E09B /* Pods_testDemo1_trianglesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testDemo1_trianglesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				487F453314712B69B1D99728 /* Pods_testDemo1_triangles.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +83,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9586707FF711273F601C9B8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				152981DFA43B7E52D359896D /* Pods-testDemo1_triangles.debug.xcconfig */,
+				81020AD29E5919829C78C01A /* Pods-testDemo1_triangles.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99EC4004B6B60E2ED1E3C6BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				155A47F0A9D41D4274AC2222 /* Pods_testDemo1_triangles.framework */,
+				AC08F4D2010CC713BC55F77A /* Pods_testDemo1_trianglesTests.framework */,
+				DDD0B25D6B7F56244DB1E09B /* Pods_testDemo1_trianglesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A851DF621E41F2F000475D7D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +109,8 @@
 				A851DF851E41F2F100475D7D /* testDemo1_trianglesTests */,
 				A851DF901E41F2F100475D7D /* testDemo1_trianglesUITests */,
 				A851DF6C1E41F2F100475D7D /* Products */,
+				9586707FF711273F601C9B8F /* Pods */,
+				99EC4004B6B60E2ED1E3C6BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +163,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A851DF961E41F2F100475D7D /* Build configuration list for PBXNativeTarget "testDemo1_triangles" */;
 			buildPhases = (
+				2D262BD9BBB51D3483CBEB38 /* [CP] Check Pods Manifest.lock */,
 				A851DF671E41F2F100475D7D /* Sources */,
 				A851DF681E41F2F100475D7D /* Frameworks */,
 				A851DF691E41F2F100475D7D /* Resources */,
+				4ECE00B2ED20DA8F0D36620A /* [CP] Embed Pods Frameworks */,
+				E673DD8058A5E7888EA19118 /* [CP] Copy Pods Resources */,
+				A841B6D81E536CD000AC1E58 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -152,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A851DF991E41F2F100475D7D /* Build configuration list for PBXNativeTarget "testDemo1_trianglesTests" */;
 			buildPhases = (
+				4161E5865A848D16319C807C /* [CP] Check Pods Manifest.lock */,
 				A851DF7E1E41F2F100475D7D /* Sources */,
 				A851DF7F1E41F2F100475D7D /* Frameworks */,
 				A851DF801E41F2F100475D7D /* Resources */,
+				B98A6D84ED4B9E162904677D /* [CP] Embed Pods Frameworks */,
+				1F325385EAC6849941CE5631 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A851DF9C1E41F2F100475D7D /* Build configuration list for PBXNativeTarget "testDemo1_trianglesUITests" */;
 			buildPhases = (
+				4EEF92181164452864D46041 /* [CP] Check Pods Manifest.lock */,
 				A851DF891E41F2F100475D7D /* Sources */,
 				A851DF8A1E41F2F100475D7D /* Frameworks */,
 				A851DF8B1E41F2F100475D7D /* Resources */,
+				8B90683517AD9C50E7F3E84D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +291,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F325385EAC6849941CE5631 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testDemo1_trianglesTests/Pods-testDemo1_trianglesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D262BD9BBB51D3483CBEB38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4161E5865A848D16319C807C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4ECE00B2ED20DA8F0D36620A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testDemo1_triangles/Pods-testDemo1_triangles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EEF92181164452864D46041 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B90683517AD9C50E7F3E84D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testDemo1_trianglesUITests/Pods-testDemo1_trianglesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A841B6D81E536CD000AC1E58 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+		};
+		B98A6D84ED4B9E162904677D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testDemo1_trianglesTests/Pods-testDemo1_trianglesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E673DD8058A5E7888EA19118 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testDemo1_triangles/Pods-testDemo1_triangles-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A851DF671E41F2F100475D7D /* Sources */ = {
@@ -404,6 +578,7 @@
 		};
 		A851DF971E41F2F100475D7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 152981DFA43B7E52D359896D /* Pods-testDemo1_triangles.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -418,6 +593,7 @@
 		};
 		A851DF981E41F2F100475D7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81020AD29E5919829C78C01A /* Pods-testDemo1_triangles.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -495,6 +671,7 @@
 				A851DF981E41F2F100475D7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A851DF991E41F2F100475D7D /* Build configuration list for PBXNativeTarget "testDemo1_trianglesTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +680,7 @@
 				A851DF9B1E41F2F100475D7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A851DF9C1E41F2F100475D7D /* Build configuration list for PBXNativeTarget "testDemo1_trianglesUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +689,7 @@
 				A851DF9E1E41F2F100475D7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
